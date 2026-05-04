@@ -23,3 +23,15 @@ Run this from the repository root to download or resume the full set:
 ```sh
 scripts/download_loc_tiffs.sh
 ```
+
+To pause the download after the current file finishes, create:
+
+```sh
+touch facsimiles/tiff/.pause
+```
+
+To continue, remove the pause file:
+
+```sh
+rm facsimiles/tiff/.pause
+```
