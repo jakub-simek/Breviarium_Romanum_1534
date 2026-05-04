@@ -30,6 +30,7 @@ while IFS= read -r url; do
   curl \
     --location \
     --fail \
+    --http1.1 \
     --continue-at - \
     --retry "$retries" \
     --retry-delay "$retry_delay" \
