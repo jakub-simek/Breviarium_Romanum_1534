@@ -35,3 +35,22 @@ To continue, remove the pause file:
 ```sh
 rm facsimiles/tiff/.pause
 ```
+
+PNG derivatives go in `png/`. Convert all downloaded TIFF files with:
+
+```sh
+scripts/convert_tiffs_to_png.sh
+```
+
+The conversion script skips PNG files that are newer than their matching TIFF.
+To pause conversion after the current file finishes, create:
+
+```sh
+touch facsimiles/png/.pause
+```
+
+To continue, remove the pause file:
+
+```sh
+rm facsimiles/png/.pause
+```

@@ -1,6 +1,7 @@
 # Downloaded facsimile master images are large and should not be committed.
 facsimiles/tiff/*.tif
 facsimiles/tiff/*.tiff
+facsimiles/png/*.png
 
 # macOS metadata.
 .DS_Store
