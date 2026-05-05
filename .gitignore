@@ -2,6 +2,8 @@
 facsimiles/tiff/*.tif
 facsimiles/tiff/*.tiff
 facsimiles/png/*.png
+facsimiles/jpg/*.jpg
+facsimiles/jpg/*.jpeg
 
 # macOS metadata.
 .DS_Store
