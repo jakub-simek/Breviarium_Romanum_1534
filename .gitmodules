@@ -1,0 +1,3 @@
+[submodule "escriptorium-tei"]
+	path = escriptorium-tei
+	url = git@gitlab.ub.uni-heidelberg.de:editions/escriptorium-tei.git
