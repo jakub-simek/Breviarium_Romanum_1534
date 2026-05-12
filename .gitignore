@@ -4,6 +4,8 @@ facsimiles/tiff/*.tiff
 facsimiles/png/*.png
 facsimiles/jpg/*.jpg
 facsimiles/jpg/*.jpeg
+materials/*.pdf
+!materials/Transkriptionsrichtlinien_Inkunabeln Reichenau.pdf
 
 # macOS metadata.
 .DS_Store
